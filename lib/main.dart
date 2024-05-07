@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'features/login_features/presentation/create_account_page.dart';
-import 'features/login_features/presentation/sign_in_page.dart';
+import 'features/homepage_feature/presentation/pages/dummy.dart';
+import 'features/homepage_feature/presentation/pages/home_page.dart';
+import 'features/login_features/presentation/pages/create_account_page.dart';
 
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CreateAccountPage(),
+      home: MyHomePage(),
     );
   }
 }
