@@ -1,6 +1,6 @@
+import 'package:a_couple_tasks/features/board_feature/presentation/pages/board_page.dart';
 import 'package:flutter/material.dart';
 
-import 'features/homepage_feature/presentation/pages/dummy.dart';
 import 'features/homepage_feature/presentation/pages/home_page.dart';
 import 'features/login_features/presentation/pages/create_account_page.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: BoardPage(),
     );
   }
 }

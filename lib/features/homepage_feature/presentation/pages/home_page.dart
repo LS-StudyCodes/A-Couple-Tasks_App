@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../widgets/custom_bottom_nav_bar_widget.dart';
+import '../../../../core/widgets/custom_bottom_nav_bar_widget.dart';
 import '../widgets/days_buttons_widget.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -28,7 +28,8 @@ class _MyHomePageState extends State<MyHomePage> {
             double bottomNavBarHeight = constraints.maxHeight * 0.10;
             return Column(
               children: [
-                Expanded(child: Column(
+                Expanded(
+                  child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(height: 16),
